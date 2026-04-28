@@ -8,12 +8,16 @@ on:
 jobs:
   run-script:
     runs-on: ubuntu-latest
+    # ESSA É A PARTE NOVA PARA SILENCIAR O AVISO:
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true 
+
     steps:
       - name: Checkout do código
-        uses: actions/checkout@v4  # Atualizado da v3 para v4
+        uses: actions/checkout@v4
 
       - name: Instalar Python
-        uses: actions/setup-python@v5 # Atualizado da v4 para v5
+        uses: actions/setup-python@v5
         with:
           python-version: '3.9'
 
