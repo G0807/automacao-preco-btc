@@ -1,0 +1,4 @@
+gspread
+requests
+google-auth
+pandas
