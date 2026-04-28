@@ -1,2 +1,2 @@
-# automacao-preco-btc
-Automated BTC data pipeline using Python, GitHub Actions, and Google Sheets. Features a full ETL process from CoinGecko API to a Looker Studio dashboard. Demonstrates API integration, data normalization, and cloud automation.
+#Automated Bitcoin Data Pipeline & Analytics
+A full ETL (Extract, Transform, Load) pipeline that fetches real-time Bitcoin data from the CoinGecko API, processes it with Python, and stores normalized records in Google Sheets. The workflow is automated via GitHub Actions and visualized through a Looker Studio dashboard. This project demonstrates core data engineering principles, API integration, cloud-based automation, and business intelligence.
